@@ -134,6 +134,6 @@ def download_document(url: str, category: str = None, filename: str = None):
 # ▶️ RUN SCRIPT
 # =========================
 if __name__ == "__main__":
-    url = "https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/"
+    url = "https://kubernetes.io/docs/concepts/workloads/pods/advanced-pod-config/"
 
     download_document(url, category="kubernetes")
