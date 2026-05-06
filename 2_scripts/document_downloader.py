@@ -134,6 +134,6 @@ def download_document(url: str, category: str = None, filename: str = None):
 # ▶️ RUN SCRIPT
 # =========================
 if __name__ == "__main__":
-    url = "https://kubernetes.io/docs/concepts/services-networking/topology-aware-routing/"
+    url = "https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
 
     download_document(url, category="kubernetes")
