@@ -134,6 +134,6 @@ def download_document(url: str, category: str = None, filename: str = None):
 # ▶️ RUN SCRIPT
 # =========================
 if __name__ == "__main__":
-    url = "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/"
+    url = "https://kubernetes.io/docs/concepts/workloads/resource-managers/"
 
     download_document(url, category="kubernetes")
